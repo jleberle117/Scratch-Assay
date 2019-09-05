@@ -19,7 +19,7 @@ Automated scratch assay algorithm
 	
 	2.2.3	Wound_Area.m
 
-3.0	DEFINITIONS\\
+3.0	DEFINITIONS\
 	3.1	User – person directly using or responsible for using the algorithm
 	3.2	Study – in the context of this SOP, a study is a scratch assay which may consist of one or more plates with one or more wells 						imaged at one or more time periods
 	3.3	Parameter Descriptions
