@@ -3,15 +3,15 @@ Automated scratch assay algorithm
  Cellular migration assays are useful in vitro techniques employed to quantify cell movement over a specified time and/or in response to treatment conditions. Cellular migration assays consist of culturing cells in a monolayer, creating an area with no cell presence, and imaging or tracking the cells as they migrate to fill in the devoid area. These assays are extensively used to study cellular behavior within complex physiological systems such as cancer metastasis, pharmaceutical drug development, and wound healing. While cellular migration assays provide simplistic outcome measures, they are time-consuming and oftentimes produce inconsistent results. This research aimed to reduce assay analysis time and variability through the use of an automated algorithm that quantifies cellular migration over time. Images of cellular migration were captured on an inverted light microscope every 4 hours for a 24 hour period. These images were uploaded to the automated algorithm software and wound width, percent closure, and summed area under the curve (AUC) values calculated. Algorithm-derived outputs were compared against manual-derived outputs and statistical analyses performed. Additionally, Algorithm-derived outputs were compared within repeat analyses of the same image sets to assess algorithm reproducibility, and statistical analyses performed. 
 
 
-1.0 PURPOSE\
-    1.1	To outline the procedure for proper use of the MATLAB automated scratch assay wound area analysis program.\
+1.0 PURPOSE
+    1.1	To outline the procedure for proper use of the MATLAB automated scratch assay wound area analysis program.
     
 2.0 REQUIREMENTS
     2.1	A valid installation of MATLAB with Image Processing Toolbox.
     2.2	The following MATLAB scripts/functions:
-	2.2.1	WoundArea_Main.m
-	2.2.2	Islands_Holes.m
-	2.2.3	Wound_Area.m
+	2.2.1 WoundArea_Main.m
+	2.2.2 Islands_Holes.m
+	2.2.3 Wound_Area.m
 
 3.0	DEFINITIONS\
 	3.1	User – person directly using or responsible for using the algorithm
