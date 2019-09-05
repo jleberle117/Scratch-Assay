@@ -4,13 +4,19 @@ Automated scratch assay algorithm
 
 
 1.0	PURPOSE
+
 	1.1	To outline the procedure for proper use of the MATLAB automated scratch assay wound area analysis program.
 
 2.0	REQUIREMENTS
+
 	2.1	A valid installation of MATLAB with Image Processing Toolbox.
+	
 	2.2	The following MATLAB scripts/functions:
+	
 	2.2.1	WoundArea_Main.m
+	
 	2.2.2	Islands_Holes.m
+	
 	2.2.3	Wound_Area.m
 
 3.0	DEFINITIONS
