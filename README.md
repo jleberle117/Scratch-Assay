@@ -39,6 +39,17 @@ Automated scratch assay algorithm
 		6.1.3	Open WoundArea_Main.m\
 		6.1.4	Set location where the study images are located:\
 			6.1.4.1	Parent = 'G:\My Drive\Scratch Assay\Sept03 Scratch';\
+			6.1.4.2	To get the file path to this folder on a PC, simply click in the directory (where open folders are 					displayed) to get the exact file path. Paste this path into the above location in MATLAB\
+			6.1.4.3	To get the file path to this folder on a Mac follow these steps:\
+			6.1.4.3.1	Open the Finder application \
+			6.1.4.3.2	Select “View” in the menu bar at the top of the screen \
+			6.1.4.3.3	Check to ensure the “Show file path” option is selected. If not, select option. If this option is already selected, the option will read “Hide file path”, indicating that the file path bar should already be visible at the bottom of the Finder application\
+			6.1.4.3.4	Once “Show file path” has been selected, the file path bar will appear at the bottom of the Finder application\
+			6.1.4.3.5	Right click on the folder (parent folder for MATLAB analysis) in the file path bar \
+			6.1.4.3.6	Select “Copy ‘name of folder’ as Pathname” \
+			6.1.4.3.7	Open the “Script_WoundArea_Table.m” MATLAB file\
+			6.1.4.3.8	Paste the file path into the “Parent =” line (line 12)\
+
 		6.1.5	List the folders for each plate found in the study folder:\
 			6.1.5.1	Plate = {'Plate 1', 'Plate 2', 'Plate 3'};\
 		6.1.6	List the folders for each time point found in each plate folder:\
