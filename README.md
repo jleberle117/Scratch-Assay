@@ -48,8 +48,7 @@ Automated scratch assay algorithm
 			6.1.4.3.5	Right click on the folder (parent folder for MATLAB analysis) in the file path bar \
 			6.1.4.3.6	Select “Copy ‘name of folder’ as Pathname” \
 			6.1.4.3.7	Open the “Script_WoundArea_Table.m” MATLAB file\
-			6.1.4.3.8	Paste the file path into the “Parent =” line (line 12)\
-
+			6.1.4.3.8	Paste the file path into the Parent line in MATLAB\
 		6.1.5	List the folders for each plate found in the study folder:\
 			6.1.5.1	Plate = {'Plate 1', 'Plate 2', 'Plate 3'};\
 		6.1.6	List the folders for each time point found in each plate folder:\
